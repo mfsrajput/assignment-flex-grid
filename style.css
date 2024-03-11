@@ -1,0 +1,262 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+html body
+{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: skyblue;
+   
+}
+/* Styles for the header */
+.header
+{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+
+}
+
+.header h1
+{
+    margin: 0;
+}
+/* 
+   Styles for the .row class:
+   - Displays its children as a flex container in a row
+   - Allows wrapping of flex items to next row if necessary
+   - Distributes space between flex items, pushing them to the sides
+   - Adds a margin of 5 pixels on top
+*/
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 5px;   
+}
+/* Styles for Step 1 & Sets the initial flex basis to 22%*/
+.step1
+{
+    margin: 0;
+    padding: 0;
+flex-basis: 22%;
+
+}
+/* Styles for Step 2 & Sets the initial flex basis to 48%*/
+.step2
+{
+    margin: 0;
+    padding: 0;
+flex-basis: 48%;
+
+}
+/* Styles for Step 3  & Sets the initial flex basis to 74%*/
+.step3
+{
+    margin: 0;
+    padding: 0;
+flex-basis: 74%;
+
+}
+/* Styles for Step 4 & Sets the initial flex basis to 100%*/
+.step4
+{
+    margin: 0;
+    padding: 0;
+flex-basis: 100%;
+
+}
+/* Styles for the figure element with class
+Sets the width
+Sets the background image with the specified URL
+Centers the background image within the element */
+figure .img1
+{
+    width: 100%;
+    background-image: url(images/360_F_502940798_CwLEGmiTlX7CGd9tk2i0LMMhgwIZ6Qtv.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+
+}
+/* Styles for the element with class 
+   Sets the width & height 
+  Sets the background color with RGBA values with opacity */
+.one
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.651);
+}
+.two
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.651);
+}
+.three
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.651);
+}
+.four
+{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 255, 0.651);
+}
+
+
+/* Styles for the figcaption element
+Adds padding around the content
+Sets the text color & Sets the background color 
+Styles for all elements inside figcaption*/
+
+figcaption
+{
+    padding: 1rem;
+    color:white;
+    background-color: #1b1b1b;
+}
+/*Adds a margin to all sides */
+figcaption * 
+{
+margin: 0.5rem;
+}
+/* Styles for the reverses the order of flex items along the row axis */
+.reverse
+{
+    flex-direction: row-reverse;
+}
+ /* Sets the order of the element, moving it to the beginning of the flex container */
+.order-1
+{
+    order: 1;
+}
+/* Sets the order of the element, moving it to the third position from the end of the flex container */
+.order-3
+{
+    order: -2;
+}
+ /* Sets the order of the element, moving it to the second position from the end of the flex container */
+.order-2
+{
+    order: -1;
+}
+/* Styles for the footer */
+footer
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: #333333a8;
+}
+
+
+
+    
+
+
+/* @media (max-width : 618px)
+{    
+    .row
+    {
+    font-size: 0.5rem;
+    }
+    figure .img1
+    {
+        height: 80px;       
+    }
+}
+
+@media (max-width : 551px)
+{
+    .header h1
+    {
+        font-size: 2rem;
+    }
+    .row
+    {
+    font-size: 0.4rem;
+    }
+    figure .img1
+    {
+        height: 80px;
+    }
+}
+
+@media (max-width : 484px)
+{
+    .header h1
+    {
+        font-size: 1rem;
+    }
+    .row
+    {
+    font-size: 0.3rem;
+    }
+    figure .img1
+    {
+        height: 80px;        
+    }
+}
+
+@media (max-width : 417px)
+{
+    .header h1
+    {
+        font-size: 1rem;
+    }
+    
+    .row
+    {
+
+    font-size: 0.19rem;
+    }
+    figure .img1
+    {
+        height: 80px;        
+    }
+}
+
+@media (max-width : 344px)
+{
+    .header h1
+    {
+        font-size: 1rem;
+    }    
+    .row
+    {
+    font-size: 0.17rem;
+    }
+    figure .img1
+    {
+        height: 80px;   
+    }
+}
+
+@media (max-width : 331px)
+{
+    .header h1
+    {
+        font-size: 1rem;
+    }
+    .row
+    {
+    font-size: 0.15rem;
+    }
+    figure .img1
+    {
+        height: 80px;   
+    }
+} */
+
+/* Styles by Muhammad Farhan Rajput */
+
+
+
